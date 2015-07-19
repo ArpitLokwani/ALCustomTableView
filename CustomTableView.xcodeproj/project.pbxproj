@@ -15,6 +15,7 @@
 		C8AB63C11B5BB252001ADC48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8AB63C01B5BB252001ADC48 /* Images.xcassets */; };
 		C8AB63C41B5BB252001ADC48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8AB63C21B5BB252001ADC48 /* LaunchScreen.xib */; };
 		C8AB63D01B5BB252001ADC48 /* CustomTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AB63CF1B5BB252001ADC48 /* CustomTableViewTests.m */; };
+		C8AB63DB1B5BB278001ADC48 /* ALCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AB63DA1B5BB278001ADC48 /* ALCustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		C8AB63C91B5BB252001ADC48 /* CustomTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8AB63CE1B5BB252001ADC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8AB63CF1B5BB252001ADC48 /* CustomTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewTests.m; sourceTree = "<group>"; };
+		C8AB63D91B5BB278001ADC48 /* ALCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCustomCell.h; sourceTree = "<group>"; };
+		C8AB63DA1B5BB278001ADC48 /* ALCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 		C8AB63A41B5BB252001ADC48 = {
 			isa = PBXGroup;
 			children = (
+				C8AB63D91B5BB278001ADC48 /* ALCustomCell.h */,
+				C8AB63DA1B5BB278001ADC48 /* ALCustomCell.m */,
 				C8AB63AF1B5BB252001ADC48 /* CustomTableView */,
 				C8AB63CC1B5BB252001ADC48 /* CustomTableViewTests */,
 				C8AB63AE1B5BB252001ADC48 /* Products */,
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8AB63B61B5BB252001ADC48 /* AppDelegate.m in Sources */,
+				C8AB63DB1B5BB278001ADC48 /* ALCustomCell.m in Sources */,
 				C8AB63B31B5BB252001ADC48 /* main.m in Sources */,
 				C8AB63BC1B5BB252001ADC48 /* ViewController.m in Sources */,
 				C8AB63B91B5BB252001ADC48 /* CustomTableView.xcdatamodeld in Sources */,

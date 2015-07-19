@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ALCustomCell.h
 //  CustomTableView
 //
 //  Created by Arpit Lokwani on 7/19/15.
@@ -8,13 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface ALCustomCell : UITableViewCell
 
-{
-    UITableView *_customTable;
-    
-}
+@property (nonatomic,strong)UILabel *nameLabel ;
 
 
 @end
-
